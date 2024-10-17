@@ -4,7 +4,7 @@
   buildGoModule,
 }:
 let
-  version = "1.11.0";
+  version = "1.12.0";
 in
 buildGoModule {
   pname = "gotestsum";
@@ -14,10 +14,10 @@ buildGoModule {
     owner = "gotestyourself";
     repo = "gotestsum";
     rev = "v${version}";
-    hash = "sha256-Sq0ejnX7AJoPf3deBge8PMOq1NlMbw+Ljn145C5MQ+s=";
+    hash = "sha256-eve3G5JhvaUapAenoIDn2ClHqljpviVpmJl4ZaAUqTs=";
   };
 
-  vendorHash = "sha256-zUqa6xlDV12ZV4N6+EZ7fLPsL8U+GB7boQ0qG9egvm0=";
+  vendorHash = "sha256-JT9x1xuWKTiMQ8jxZuW+ZwRRQt2Y4Lk8peESvgTgimc=";
 
   doCheck = false;
 
